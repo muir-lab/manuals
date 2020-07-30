@@ -1,0 +1,88 @@
+---
+title: "RACiR Curve Protocol for LI-6800, Bluestem version 1.4.0"
+date: 'Last updated: 2020-07-29'
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pre-start checklist
+
+1. Check chemicals
+
+* H$_2$O scrub: is dessicant fresh?
+* H$_2$O add: is Stuttgarter Masse wet?
+* CO$_2$ scrub: is soda lime fresh?
+
+2. Connect CO$_2$
+
+3. Connect sensor head
+
+## Start-up
+
+1. Turn on LI-6800
+
+2. Load Factory settings
+
+3. In "Start up" menu, go to "Warmup/System Tests". Run "Warmup Tests" (~15 minutes)
+
+## Environment control
+
+**Note:** These are "standard" environmental conditions and may change for a given experiment.
+
+Go to "Environment" tab
+
+ Parameter     | Reference     | Value
+---------------|---------------|--------------------
+ Flow          |               | $\mu$mol $s^{-1}$
+ H$_2$O        | `VPD_leaf`    | 1.5 kPa
+ CO$_2$        | `CO2_r`       | 410 ppm
+ Fan           | `Speed`       | 10000 rpm
+ Temperature   | `Tleaf`       | 25 $^\circ C$
+ Light         | Setpoint      | 1000 $\mu$mol $m^{-2}$ $s^{-1}$ 
+ Fluor         | Keep defaults | NA
+ Auxilliary    | Keep defaults | NA
+ Auto Controls | Target        | `CO2_r`
+               | $F(t)$        | `Linear`
+               | $F(0)$        | 10 ppm
+               | $F(T)$        | 1010 ppm
+               | Period        | 10 minutes
+
+* Uncheck "Auto-Repeat"
+* Make sure arrow is at beginning of ramp
+
+## Acclimation
+
+1. Once environmental parameters are set and have reached equilibrium, clamp onto a leaf to acclimate.
+
+2. Once semi-stable, Match
+
+3. Allow leaf to acclimate to chamber conditions until $A$ and $g_\text{sw}$ reach equilibrium (typically 10-30 minutes).
+
+4. After leaf is fully acclimatized, Match again immediately before starting RACiR curve.
+
+## Log files
+
+You can do these steps while leaf is acclimating.
+1. Navigate to Log Files tab
+
+2. Under "Matching Options", set to "Never Match"
+
+3. Under "Fluorometer Options", set to "Flr Action at Log" to "0: Nothing"
+
+4. Under "Open a Log File", select "New File" and name "yyyy-mm-dd-fml-racir"
+
+5. Under "Log Remark", indicate what you're measuring
+
+```{r cars}
+summary(cars)
+```
+
+## Start Auto Program
+
+Navigate to "Auto Programs" tab

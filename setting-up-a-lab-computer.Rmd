@@ -1,7 +1,7 @@
 ---
 title: "Setting up a new lab computer"
 author: "Chris Muir"
-date: "6/5/2020"
+date: "7/24/2021"
 output: html_document
 ---
 
@@ -37,9 +37,9 @@ It should tell you clang version `11.X.X` has been installed.
 
 The installer will place the `gfortran` binary into `/usr/local/gfortran`. This will be picked up by the default implicit variable set by `R` during compilation.
 
-### Install *R* 4.0.1 (latest release)
+### Install *R* 4.1.0 (latest release)
 
-1. Download the software from this link: https://cran.r-project.org/bin/macosx/R-4.0.1.pkg
+1. Download the software from this link: https://cran.r-project.org/bin/macosx/base/R-4.1.0.pkg
 
 2. Follow prompts to install.
 
@@ -55,9 +55,9 @@ The installer will place the `gfortran` binary into `/usr/local/gfortran`. This 
 
 `tar -xvzf Users/muirlab/Desktop/R-devel.tar.gz`
 
-### Install *RStudio* 1.3.X
+### Install *RStudio* 1.4.X
 
-1. Download the software from this link: https://download1.rstudio.org/desktop/macos/RStudio-1.3.959.dmg
+1. Download the software from this link: https://download1.rstudio.org/desktop/macos/RStudio-1.4.1717.dmg
 
 2. Follow prompts to install.
 
@@ -69,16 +69,16 @@ The installer will place the `gfortran` binary into `/usr/local/gfortran`. This 
 
 3. Move `RSwitch` app to `Applications` folder.
 
-4. Double-click to open. You should see the RSwitch logo appear in the upper-right menu bar. If you have successfully installed *R* 4.0.0 (latest release) and 4.1.0 (devel), then you should see something like this when you click on the RSwitch icon:
+4. Double-click to open. You should see the RSwitch logo appear in the upper-right menu bar. If you have successfully installed *R* 4.1.0 (latest release) and 4.X.X (devel), then you should see something like this when you click on the RSwitch icon:
 
 ![](images/rswitch-menu.png)
 Most of the time, you will be working with the latest release, but for test new packages, we also need the devel version.
 
-### Install **muirpkgs** in *R* 4.0.1
+### Install **muirpkgs** in *R* 4.1.0
 
 This [package](https://github.com/muir-lab/muirpkgs) will install commonly used *R* packages. Note that you will have to install packages in *both* the release and devel versions of *R*.
 
-1. In RSwitch, select `4.0 (4.0.1)`, then launch *RStudio*
+1. In RSwitch, select `4.1 (4.1.0)`, then launch *RStudio*
 
 2. In the `Console`, install the **remotes** package:
 

@@ -120,3 +120,7 @@ This [package](https://github.com/muir-lab/muirpkgs) will install commonly used 
 `mkdir tealeaves`
 `git clone https://github.com/cdmuir/tealeaves.git`
 `cd ..`
+
+### Set up `muir-lab` Slack
+
+1. 

@@ -1,0 +1,102 @@
+---
+title: "Point measurements for LI-6800, Bluestem version 1.4.0"
+date: 'Last updated: 2020-11-02'
+output:
+  html_document: 
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pre-start checklist
+
+1. Check chemicals
+
+* H$_2$O scrub: is dessicant fresh?
+* H$_2$O add: is Stuttgarter Masse wet?
+* CO$_2$ scrub: is soda lime fresh?
+
+2. Connect CO$_2$
+
+3. Connect sensor head
+
+## Start-up
+
+1. Turn on LI-6800
+
+2. Load Factory settings
+
+3. In "Start up" menu, go to "Warmup/System Tests". Run "Warmup Tests" (~15 minutes)
+
+(need a step here to disable fluorometer if not using)
+
+## Environment control
+
+**Note:** These are "standard" environmental conditions and may change for a given experiment.
+
+Go to "Environment" tab
+
+ Parameter     | Reference     | Value
+---------------|---------------|--------------------
+ Flow          | Automatic     | $\mu$mol $s^{-1}$
+ H$_2$O        | `VPD_leaf`    | 1.5 kPa
+ CO$_2$        | `CO2_r`       | 410 ppm
+ Fan           | `Speed`       | 10000 rpm
+ Temperature   | `Tleaf`       | 25 $^\circ C$
+ Light         | Setpoint      | 250 $\mu$mol $m^{-2}$ $s^{-1}$ 
+ Fluor         | Keep defaults | NA
+ Auxilliary    | Keep defaults | NA
+ Auto Controls | Target        | `CO2_r`
+               | $F(t)$        | `Linear`
+               | $F(0)$        | 10 ppm
+               | $F(T)$        | 1010 ppm
+               | Period        | 10 minutes
+
+## Log files
+
+1. Navigate to "Log Files" tab
+
+2. Under "Matching Options", set to "Never Match" (you will schedule matching on your own)
+
+3. Under "Open a Log File", select "New File" and name "yyyy-mm-dd-fml-pointmeas"
+
+4. Under "Log Remark", indicate what you're measuring
+
+## Match IRGAs
+
+Note: Matching should be done before measurements and probably every ~30 minutes or so while taking point measurements. However, you definitely want to match any time there is a big change in CO$_2$ or H$_2$O. You may also want to match if there is a major change in another environmental parameter or measurements seem off.
+
+1. With chamber closed (no leaf), go to "Measurements" tab to monitor environment.
+
+2. Once environmental parameters are set and have reached equilibrium, click "Match IRGA" button. This will take you into Match Mode.
+
+3. Once you've entered Match Mode, select "Auto" button. Wait until you get green lights for the CO$_2$ or H$_2$O match in the bottom, center of the screen (usually takes 20-30 seconds). Auto match works most of the time, but if not you'll have to manually match.
+
+4. Click "Close Match" to exit Match Mode and return to "Measurements" screen. You're ready to take your first measurement.
+
+## Acclimation
+
+1. Clamp onto leaf, making sure it fills the entire aperture.
+
+2. Allow a few seconds for measurements to stabilize, focus on $A$ and $g_\text{sw}$ (typically 30 seconds).
+
+3. After leaf is fully acclimatized, you're ready to start auto-log program
+
+## Start Auto Program
+
+Navigate to "Auto Programs" tab
+
+1. Auto-log - I do 1 minute, log every 6 seconds, but YMMV
+
+2. Hit Start
+
+## Completion
+
+After you've finished measurements, you'll need to close log file and shutdown.
+
+1. Close log file. Navigate to "Log Files". Select "Close Log". The machine will now write an Excel file and the finish. After that, you can offload files or shut down and offload files later.
+
+2. Shut down.
+

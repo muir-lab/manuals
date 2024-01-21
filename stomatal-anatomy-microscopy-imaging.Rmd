@@ -1,0 +1,144 @@
+---
+title: "stomatal anatomy microscopy imaging"
+author: "Frank Wang"
+date: "1/20/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### 1. Prepare
+
+1.1 Find a mold folder and take out one working page.  
+
+1.2 Open the data file and find the number of the page.  
+
+For quantity test:
+https://docs.google.com/spreadsheets/d/166n-3RT2ai1lQwvxABFdsAe6WKWF4I5sx1N6Zqs4soU/edit?usp=drive_link
+
+#where is the datasheet for each garden?
+
+1.3 Open a blank page and record the same number on both two sides and all other information from the working page to the blank page. 
+
+1.4 Move all samples on side of the working page and place them in the preparation area (a shallow, gridded slab, or a plastic tray) according to their numbers. 
+
+1.5 Check that the sample is clean, could use paper towels to clean the surface. 
+
+### 2.Nail Polish 
+
+2.1 Open a bottle of nail polish and make sure the brush is clean and tidy first.  
+
+2.2 Apply an even coat of nail polish to each mold and put them back to the working place. 
+
+2.3 Wait for drying, about 5 minutes. 
+
+2.4 Apply the dried nail polish with tape and remove it from the mold 
+
+2.5 Apply tape and nail polish to the slide, make it flat.
+
+
+### 3. Use a microscope to take stomatal images.  
+
+3.1. Computer and microscope 
+
+  3.1.1 If the microscope has a cover, remove it carefully. 
+
+  3.1.2 Open the light of the microscope.  
+
+  3.1.3 Open the console power. 
+
+  3.1.4 Turn the objective lens to 10X. 
+
+  3.1.5 Open the NIS-Elements soft work on the computer.  
+
+3.2. Observation and Imaging 
+
+  3.2.1 Place the prepared slide on the observation stage 
+
+  3.2.2 Open live observation (Green arrow button) 
+
+![](images/stomatal image computer/image 1)
+  3.2.3 Open the AE control if not (Auto light control) 
+
+ ![](images/stomatal image computer/image 2)
+
+  3.2.4 Adjust focus and position to find the right, clear image 
+
+      Easy to see the stomata 
+
+      The image should be bright, clear and accurate focus 
+
+      Not a lot of bubbles or trichomes 
+
+ 	    Resolution is 1280X960
+
+
+3.3 Use capture button take photo. 
+
+![](images/stomatal image computer/image 3)
+
+ 
+  3.3.1 Use file label save image to the computer desktop 
+
+  3.3.2 The file format is JEPG 
+
+  3.3.3 Naming: 2023 North-801-06-upper 
+
+    YYYY_region_row_col_surface 
+
+    OR 
+
+    YYYY_region_row_col_surface_rep 
+
+    Use _ or -, no whitespace 
+
+    Always use lowercase 
+
+    Column – always use three digits 
+
+  Examples: 
+
+    2023_north_101_001_upper 
+
+    2023_north_101_001_upper_1 
+
+ 
+
+
+### 4. Final work  
+
+  4.1 Upload the all images to the folder. 
+
+  For quantity test:
+https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=drive_link
+  
+  For other data:
+
+  North 2023:https://drive.google.com/drive/folders/1Y4d_mS67HFyicTvW2c8bdpv8SuKld3cf?usp=drive_link
+
+  South 2023：https://drive.google.com/drive/folders/1iYK1C87dMIz8_xLXEpZffssG0rSQFYPU?usp=drive_link
+
+  4.2 Report the image information on the data file, including the time and name of the sampler.
+  
+  4.3 Place the completed molds on a blank recording paper, secure them with tape again, and put it back to the folder. 
+
+  4.4 Remove the tape and clean the slide with ethanol for next time. 
+
+  4.5 Used tape can be thrown directly into the trash can 
+
+  4.6 When done for the day, put all slides back to the box 
+
+  4.7 Close the computer console, turn off the microscope light, and put the cover back 
+
+ 
+### Precautions 
+
+If the microscope is not used for a long time, turn off the power 
+
+Don't disturb other people's work. 
+
+ 
+

@@ -60,25 +60,29 @@ https://docs.google.com/spreadsheets/d/166n-3RT2ai1lQwvxABFdsAe6WKWF4I5sx1N6Zqs4
 
   3.2.2 Open live observation (Green arrow button) 
 
-![](images/stomatal image computer/image 1)
+![](images/stomatal image computer/image 1.png)
   3.2.3 Open the AE control if not (Auto light control) 
 
- ![](images/stomatal image computer/image 2)
+![](images/stomatal image computer/image 2.png)
 
-  3.2.4 Adjust focus and position to find the right, clear image 
-
-      Easy to see the stomata 
-
-      The image should be bright, clear and accurate focus 
-
-      Not a lot of bubbles or trichomes 
-
- 	    Resolution is 1280X960
+  3.2.4 Adjust focus and position to find the right, clear image
+      
+      #Easy to see the stomata 
+      
+      #The image should be bright, clear, and accurate focus 
+      
+      #Not a lot of bubbles or trichomes 
+  
+  3.2.5 Resolution is 1280X960
+ 	    
+ 	    Acquire/setting
+ 	    
+![](images/stomatal image computer/image 4.png)
 
 
 3.3 Use capture button take photo. 
 
-![](images/stomatal image computer/image 3)
+![](images/stomatal image computer/image 3.png)
 
  
   3.3.1 Use file label save image to the computer desktop 
@@ -117,9 +121,11 @@ https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=dri
   
   For other data:
 
-  North 2023:https://drive.google.com/drive/folders/1Y4d_mS67HFyicTvW2c8bdpv8SuKld3cf?usp=drive_link
+  North 2023: 
+  https://drive.google.com/drive/folders/1Y4d_mS67HFyicTvW2c8bdpv8SuKld3cf?usp=drive_link
 
-  South 2023：https://drive.google.com/drive/folders/1iYK1C87dMIz8_xLXEpZffssG0rSQFYPU?usp=drive_link
+  South 2023：
+  https://drive.google.com/drive/folders/1iYK1C87dMIz8_xLXEpZffssG0rSQFYPU?usp=drive_link
 
   4.2 Report the image information on the data file, including the time and name of the sampler.
   

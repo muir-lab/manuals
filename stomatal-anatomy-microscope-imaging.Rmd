@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 1. Prepare
 
-1.1 Find a mold folder and take out one working page.  
+1.1 Find a mold folder and take out one working page.Need to determine if there is two finish working color markers. If only one, need to finish it priority. 
 
 1.2 Open the data sheet and find the number of the page. 
 
@@ -25,22 +25,27 @@ https://docs.google.com/spreadsheets/d/1l0IMaZir0SRKR14aO3ckYuN5QF2ONtCX/edit?us
 
 1.3 Take an unlabeled grid sheet and copy the sample IDs and any notes (most sheets will not have notes) from the labeled grid sheet to the unlabeled grid sheet.
 
-1.4 Move all samples from the labeled grid sheet to the preparation area in the metal pallet in the same order. 
+1.4 Put the tray on the table, the label should be on the upper left corner. 
 
-1.5 Check that the sample is clean and clean with paper towels if needed. 
+1.5 Move the samples from the labeled grid sheet to the preparation area in the metal pallet in the same order. Only move one sample at each time, and put them facing up. 
+
+1.6 Check that the sample is clean and clean with paper towels if needed. If needed, can use ethanol to clean the surface, but need to use the tissue to dry it before the next step.
 
 ### 2.Nail Polish 
 
 2.1 Open a bottle of nail polish and make sure the brush is clean.
+Make sure close it if don't use it.
 
 2.2 Apply an even coat of nail polish to each mold and put them back to the working place (full cove the mold, and as thin as possible). 
 
 2.3 Wait for drying, about 10 minutes. 
 
-2.4 Apply the dried nail polish with transparent tape and remove it from the mold.
+2.4 Apply the dried nail polish with transparent tape and remove it from the mold. 
 
-2.5 Apply tape and nail polish to the slide, make it as flat as possible.
+2.5 Apply tape and nail polish to the slide, make it as flat as possible. Use a black marker to carefully record the sample number on the tape. Example:
 
+  * 001_001_up
+  * 001_001_low
 
 ### 3. Use a microscope to take stomatal images.  
 
@@ -62,12 +67,10 @@ https://docs.google.com/spreadsheets/d/1l0IMaZir0SRKR14aO3ckYuN5QF2ONtCX/edit?us
 
   3.2.1 Place the prepared slide on the observation stage 
 
-  3.2.2 Open live observation (Green arrow button) 
-  
-  If this button not work, try live Quality (The button just on the right also with a green arrow)
+  3.2.2 Use the live Quality (The button on the right with a green arrow and camera). If this button not work, try live observation (The left one.)
 
 ![](images/stomatal image computer/image 1.png)
-  3.2.3 Before the first time use. Make sure the objective lens magnification is match (Click once 10X)
+  3.2.3 Before the first time use. Make sure the objective lens magnification is match (Click once 10X) (If forget this, it may not affect the picture quality, but it will affect the background information.)
   
 ![](images/stomatal image computer/image 5.png) 
   
@@ -96,9 +99,7 @@ https://docs.google.com/spreadsheets/d/1l0IMaZir0SRKR14aO3ckYuN5QF2ONtCX/edit?us
  
   3.3.1 Use file label save image to the computer desktop 
 
-  3.3.2 The file format is JEPG 
- 
-(CMD: should I use tif format?)
+  3.3.2 The file format is .tif 
 
   3.3.3 Name the file
 
@@ -137,13 +138,16 @@ https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=dri
   
   4.3 Place the completed molds on the new gridded sheet (with IDs and notes), secure them with tape again, and put it back to the folder. 
 
-  4.4 Remove the tape and clean the slide with ethanol for next time. 
+  4.4 When finish one page, need to make the marker on the top. Use yellow highlighters for the front and red highlighters for the back side. 
+ 
 
-  4.5 Used tape can be thrown directly into the trash can 
+  4.5  Remove the tape and clean the slide with ethanol for next time. 
+  
+  4.6 Used tape can be thrown directly into the trash can 
 
-  4.6 When done for the day, put all slides back to the box 
+  4.7 When done for the day, put all slides back to the box 
 
-  4.7 Close the computer console, turn off the microscope light, and put the cover back 
+  4.8 Close the computer console, turn off the microscope light, and put the cover back 
 
  
 ### Precautions 

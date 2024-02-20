@@ -1,0 +1,106 @@
+---
+title: "Protocol: epidermal cell counts"
+author: "Chris Muir"
+date: today
+format: html
+editor: visual
+---
+
+## Purpose
+
+Estimate number of epidermal cells per area from light microscope images using [FIJI](https://imagej.net/software/fiji/).
+
+## Prerequisites
+
+-   Install [FIJI](https://imagej.net/software/fiji/)
+
+## Steps
+
+### 1. Open FIJI from Dock
+
+![](images/epidermal-cell-count/01.png){fig-align="center"}
+
+### 2. Open image for measurements
+
+![](images/epidermal-cell-count/02.png){fig-align="center"} ![](images/epidermal-cell-count/03.png){fig-align="center"} 
+
+### 3. Configure multi-point tool options
+
+-   right-click on multi-point tool button in the FIJI tool bar
+
+![](images/epidermal-cell-count/04.png){fig-align="center"} 
+
+- Select the following options: 
+
+  + Type: Dot 
+  + Color: Yellow 
+  + Size: Extra large
+
+![](images/epidermal-cell-count/05.png){fig-align="center"}
+
+-   Click "OK" button when properly configured
+
+### 4. Open ROI manager
+
+-   ROI stands for "Region of Interest"
+-   This enables you to save your work so you can stop and restart and we can verify work later
+-   Select "Analyze \> Tools \> ROI Manager..."
+
+![](images/epidermal-cell-count/06.png){fig-align="center"}
+
+## PAUSE and read carefully
+
+If you are starting a new image, keep reading below. If you are restarting counts on an image you have already begun, skip down to "Restarting images".
+
+## Starting new images
+
+### 5. Count epidermal cells
+
+- Check that multi-point tool is selected
+- Place a point (yellow dot) in every epidermal (see example below)
+  + Left-clicking mouse in an empty region will place a new point
+  + Do not place a point in stomata, trichomes, etc.
+  + Include partial cells cut off by edge
+  + Do your best in regions that are out of focus
+  + Use the Zoom tool as needed to focus on smaller regions
+- You can fix mistakes by moving around individual points with your mouse
+- Example:
+
+![](images/epidermal-cell-count/07.png){fig-align="center"}
+
+### 6. Save your work
+
+- When you are ready to save your work, add points to ROI manager by clicking "Add [t]" button or pressing "t" on the keyboard
+
+![](images/epidermal-cell-count/08.png){fig-align="center"}
+
+- To save, select "More > Save..." in the ROI Manager
+
+![](images/epidermal-cell-count/09.png){fig-align="center"}
+
+- Save using the image file name, but with ".roi" instead of ".tif" extension
+
+![](images/epidermal-cell-count/10.png){fig-align="center"}
+
+### 7. Enter final cell count and notes in Excel spreadsheet
+
+- **Label**: image file name (exclude the ".tif" extension)
+- **n**: epidermal cell count
+- **notes**: any notes on image quality or concerns
+
+Save spreadsheet
+
+## Restarting images
+
+### 8. Open and update saved ROI
+
+- To open, select "More > Open..." in the ROI Manager
+
+![](images/epidermal-cell-count/11.png){fig-align="center"}
+
+- Continue counting epidermal cells
+- To update the ROI, make sure ROI is selected and press "Update" in ROI Manager
+
+![](images/epidermal-cell-count/12.png){fig-align="center"}
+
+- Follow instructions above to save ROI and record data

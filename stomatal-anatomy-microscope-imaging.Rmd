@@ -115,7 +115,7 @@ Make sure close it if don't use it.
 ![](images/stomatal image computer/image 3.png)
 
  
-  3.3.1 Use file label save image to the computer desktop 
+  3.3.1 Use file label save image to the computer/desktop/Muir lab 
 
   3.3.2 The file format is .tif 
 

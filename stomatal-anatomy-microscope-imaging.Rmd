@@ -16,6 +16,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.2 Open the data sheet and find the number of the page. 
 
+For North quantity test:
+https://docs.google.com/spreadsheets/d/1C_mpXDabDR4pLFdCAKwXqCXom--ViLTB/edit?usp=drive_link&ouid=102207485550371806190&rtpof=true&sd=true
+
+For South quantity test:
+https://docs.google.com/spreadsheets/d/1xihtO0SSQLMLCAdFZAFwq3XT1wGSoP9B/edit?usp=drive_link&ouid=102207485550371806190&rtpof=true&sd=true
+
 For north garden:
 https://docs.google.com/spreadsheets/d/1xihtO0SSQLMLCAdFZAFwq3XT1wGSoP9B/edit?usp=sharing&ouid=102207485550371806190&rtpof=true&sd=true
 
@@ -118,16 +124,21 @@ Make sure close it if don't use it.
 
   4.1 Upload the all images to the folder. 
 
-  For quantity test:
+  For north quantity test:
 https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=drive_link
+
+  For south quantity test:
+  https://drive.google.com/drive/folders/1V32gC-TNtD1upgCEnvv6cIf-TG_ULzSN?usp=drive_link
   
   For other data:
 
-  North 2023: https://drive.google.com/drive/folders/1Y4d_mS67HFyicTvW2c8bdpv8SuKld3cf?usp=drive_link
-
-  South 2023: https://drive.google.com/drive/folders/1iYK1C87dMIz8_xLXEpZffssG0rSQFYPU?usp=drive_link
+  North 2023: https://drive.google.com/drive/folders/1fJWbtAW6wvPeD328JuI9pe7DQHdxnZ9G?usp=drive_link
+  
+  South 2023: https://drive.google.com/drive/folders/187uVNJVR5PKVXMIEKz7vrJgWXw_dd2EQ?usp=drive_link
 
   4.2 Report the image information on the data file, include taking date, rep number and name/name abbreviation. 
+  
+  *****need to change
   
   Examples: 
   

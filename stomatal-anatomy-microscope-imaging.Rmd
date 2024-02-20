@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 1.2 Open the data sheet and find the number of the page. 
 
 For North quantity test:
-https://docs.google.com/spreadsheets/d/1C_mpXDabDR4pLFdCAKwXqCXom--ViLTB/edit?usp=drive_link&ouid=102207485550371806190&rtpof=true&sd=true
+https://docs.google.com/spreadsheets/d/166n-3RT2ai1lQwvxABFdsAe6WKWF4I5sx1N6Zqs4soU/edit?usp=drive_link
 
 For South quantity test:
 https://docs.google.com/spreadsheets/d/1xihtO0SSQLMLCAdFZAFwq3XT1wGSoP9B/edit?usp=drive_link&ouid=102207485550371806190&rtpof=true&sd=true
@@ -36,6 +36,18 @@ https://docs.google.com/spreadsheets/d/1l0IMaZir0SRKR14aO3ckYuN5QF2ONtCX/edit?us
 1.5 Move the samples from the labeled grid sheet to the preparation area in the metal pallet in the same order. Only move one sample at each time, and put them facing up. 
 
 1.6 Check that the sample is clean and clean with paper towels if needed. If needed, can use ethanol to clean the surface, but need to use the tissue to dry it before the next step.
+
+1.7 Add the number ID on the data sheet
+  * `YYYY_region_row_col_surface` (if doing a single image per mold)
+  * `YYYY_region_row_col_surface_rep` (if doing a multiple images per mold)
+  * Use `_`, no whitespace 
+  * Always use lowercase 
+  * `col` – always use three digits 
+
+  Examples: 
+
+  * 2023_north_101_001_upper 
+  * 2023_north_101_001_upper_1 
 
 ### 2.Nail Polish 
 

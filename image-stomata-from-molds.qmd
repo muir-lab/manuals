@@ -1,0 +1,16 @@
+---
+title: "Protocol: making leaf surface images from molds"
+format: pdf
+editor: visual
+---
+
+## 1. Prepare 
+
+* Find a model folder and take out one working page.  
+* Open the data file and find the number of the page.  
+
+> Add the file link here…… 
+
+* Open a blank page and record the same number on both two sides and all other information from the working page to the blank page. 
+* Move all samples on side of the working page and place them in the preparation area (a shallow, gridded slab, or a plastic tray) according to their numbers. 
+* Check that the sample is clean, could use paper towels to clean the surface. 

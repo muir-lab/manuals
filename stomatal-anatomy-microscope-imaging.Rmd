@@ -56,9 +56,11 @@ Make sure close it if don't use it.
 
 2.2 Apply an even coat of nail polish to each mold and put them back to the working place (full cove the mold, and as thin as possible). 
 
+Close the nail polish cover when finish used. 
+
 2.3 Wait for drying, about 10 minutes. 
 
-2.4 Apply the dried nail polish with transparent tape and remove it from the mold. 
+2.4 Apply the dried nail polish with transparent tape and remove it from the mold (The tape could be a little longer than tape. Fold the bottom end, so it will be easy to remove it later.)
 
 2.5 Apply tape and nail polish to the slide, make it as flat as possible. Use a black marker to carefully record the sample number on the tape. Example:
 
@@ -71,15 +73,19 @@ Make sure close it if don't use it.
 
   3.1.1 If the microscope has a cover, remove it carefully. 
 
-  3.1.2 Open the light of the microscope.  
-
-  3.1.3 Open the console power. 
-
-  3.1.4 Turn the objective lens to 10X. 
-
-  3.1.5 The computer should be in sleep mode, If the screen is black, check if the monitor is on.
+  3.1.2 Open the light of the microscope (check the light cover is full open) 
   
-  3.1.6 Open the NIS-Elements soft work on the computer.  
+  3.1.3 Move the side lever to the middle position
+  
+![](images/stomatal image computer/image 6.png)
+
+  3.1.4 Open the console power. 
+
+  3.1.5 Turn the objective lens to 10X. 
+
+  3.1.6 The computer should be in sleep mode, If the screen is black, check if the monitor is on. 
+  
+  3.1.7 Open the NIS-Elements soft work on the computer.  
 
 3.2. Observation and Imaging 
 
@@ -103,7 +109,7 @@ Make sure close it if don't use it.
   * The image should be bright, clear, and accurate focus 
   * Not a lot of bubbles or trichomes 
   
-  3.2.6 Set resolution to $1280 \times 960$
+  3.2.6 Set resolution to $1280 \times 960$ (check this when app close)
  	    
  	* Go to the Acquire/Camera Setting/Quality menu
  	    
@@ -134,7 +140,7 @@ Make sure close it if don't use it.
 
 ### 4. Upload files and clean up  
 
-  4.1 Upload the all images to the folder. 
+  4.1 Upload the all images to the folder (Checking the photo size when upload it. 1280 should be 3.5-4MB) 
 
   For north quantity test:
 https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=drive_link
@@ -148,13 +154,11 @@ https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=dri
   
   South 2023: https://drive.google.com/drive/folders/187uVNJVR5PKVXMIEKz7vrJgWXw_dd2EQ?usp=drive_link
 
-  4.2 Report the image information on the data file, include taking date, rep number and name/name abbreviation. 
-  
-  *****need to change
-  
+  4.2 Report the image information on the data file, include the individuals number and, name abbreviation, and note if neeed. 
+
   Examples: 
   
-  *001_01_Frank
+  *2023_north_101_001_upper_1 | Frank | the image need to retake.
   
   If take multiple photos for one sample. Just record every one by using different rep number.
   
@@ -164,13 +168,13 @@ https://drive.google.com/drive/folders/1rGSGvlBm00Ye6gKyBNPd3TnKy1ifnGRN?usp=dri
   4.4 When finish one page, need to make the marker on the top. Use yellow highlighters for the front and red highlighters for the back side. 
  
 
-  4.5  Remove the tape and clean the slide with ethanol for next time. 
+  4.5 Remove the tape and clean the slide with ethanol for next time. 
   
   4.6 Used tape can be thrown directly into the trash can 
 
   4.7 When done for the day, put all slides back to the box 
 
-  4.8 Close the computer console, turn off the microscope light, and put the cover back 
+  4.8 Close the computer console, turn off the microscope light, move the side lever to back, and put the cover back.
 
  
 ### Precautions 
@@ -179,6 +183,16 @@ If the microscope is not used for a long time, turn off the power
 
 Don't disturb other people's work. 
 
+### Some bad exmaple
+
+1. This nail polish is too thin and unequal
+
+![](images/stomatal image computer/image 7.png)
+
+
+2. The light cover is not full open.
+
+![](images/stomatal image computer/image 8.png)
 
  
 

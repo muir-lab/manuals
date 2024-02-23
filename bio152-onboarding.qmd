@@ -1,0 +1,121 @@
+---
+title: "Onboarding"
+date: today
+format: revealjs
+editor: visual
+---
+
+## Agenda
+
+-   Install software
+
+    -   *R*
+
+    -   *RStudio*
+
+    -   *git*
+
+-   Make GitHub accounts
+
+-   Initiate project repo
+
+-   Introduce *Quarto* documents
+
+-   How to use *git*: pull, edit, commit, push
+
+-   Start research log and push first commit
+
+## Purpose
+
+Learn about software for scientific computing that make it easier to collaborate and reproduce one anothers work.
+
+## Software
+
+| Software  | Description                                                                    |
+|-------------------|-----------------------------------------------------|
+| *R*       | Computing language for statistics                                              |
+| *RStudio* | Graphical interface for *R* and other tools                                    |
+| *git*     | Version control (let's you keep track of how documents change between authors) |
+
+## Install software
+
+| Software  | URL                                        |
+|-----------|--------------------------------------------|
+| *R*       | https://cran.r-project.org/                |
+| *RStudio* | https://posit.co/download/rstudio-desktop/ |
+| *git*     | https://github.com/git-guides/install-git  |
+
+## Make GitHub accounts
+
+GitHub $\ne$ *git*
+
+You need *git* to use GitHub, but *git* is a software program installed on your computer. GitHub is a website where collaborators can work on a project and keep track of changes using *git*.
+
+-   https://github.com
+
+-   "Sign Up" (upper-right corner)
+
+## Initiate project repo
+
+-   On GitHub
+
+    -   CDM will init repo for each student
+
+-   In *RStudio*
+
+    -   "New Project"
+
+    -   "Version Control"
+
+    -   "Git"
+
+## Introduce *Quarto* documents
+
+https://quarto.org/
+
+Tutorial: https://quarto.org/docs/get-started/hello/rstudio.html
+
+## Make a *Quarto* research log
+
+-   File \> New File \> Quarto Document...
+
+-   Title: BIO 152 Reseach Log
+
+-   Save as "bio152-research-log.qmd"
+
+``` nocode
+---
+title: "BIO 152 Reseach Log"
+format: html
+editor: visual
+---
+
+## 2024-02-19
+
+* Onboarding
+
+## 2024-02-20
+
+* Went over data entry protocol
+* ...
+```
+
+## How to use *git*: pull, edit, commit, push
+
+The rhythm of *git*
+
+1. **pull**: get new document versions from GitHub
+  + this incorporates your collaborators' work into your local version
+2. **edit**: work on your project
+
+## How to use *git*: pull, edit, commit, push
+
+3. **commit**: when you make a change and are ready to share, commit your changes *locally*
+  + this only affects the version on your computer; changes are not available to collaborators until you push
+4. **push**: share work with collaborators
+
+Rinse and repeat!
+
+## Start research log and push first commit
+
+Edit, commit, and push your research log to GitHub

@@ -2,7 +2,9 @@
 title: "stomatal anatomy microscopy imaging"
 author: "Frank Wang"
 date: "Last updated `r Sys.Date()`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -85,7 +87,19 @@ Close the nail polish cover when finish used.
 
   3.1.6 The computer should be in sleep mode, If the screen is black, check if the monitor is on. 
   
-  3.1.7 Open the NIS-Elements soft work on the computer.  
+  3.1.7 Illumination 
+ 
+  * open the field diaphragm enough to illuminate the sample and bring the sample into focus.
+   
+  * Close the field diaphragm all the way and adjust the condenser focus to get a sharp edge
+   
+  * Open the field diaphragm until it almost fills the field of view. 
+   
+  * If not centered, adjust with the silver centering knobs. Each knob pulls the focus towards itself when tightened.
+   
+  * Open the field diaphragm just enought to fill the field of view leads to light scatter and hazy images.  
+  
+  3.1.8 Open the NIS-Elements soft work on the computer.  
 
 3.2. Observation and Imaging 
 
